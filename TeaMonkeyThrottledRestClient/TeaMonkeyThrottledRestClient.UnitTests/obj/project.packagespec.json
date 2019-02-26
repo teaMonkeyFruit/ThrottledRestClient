@@ -1,0 +1,63 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/carsons/Repositories/ThrottledRestClient/TeaMonkeyThrottledRestClient/TeaMonkeyThrottledRestClient.UnitTests/TeaMonkeyThrottledRestClient.UnitTests.csproj",
+    "projectName": "TeaMonkeyThrottledRestClient.UnitTests",
+    "projectPath": "/Users/carsons/Repositories/ThrottledRestClient/TeaMonkeyThrottledRestClient/TeaMonkeyThrottledRestClient.UnitTests/TeaMonkeyThrottledRestClient.UnitTests.csproj",
+    "outputPath": "/Users/carsons/Repositories/ThrottledRestClient/TeaMonkeyThrottledRestClient/TeaMonkeyThrottledRestClient.UnitTests/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/carsons/Repositories/ThrottledRestClient/TeaMonkeyThrottledRestClient/TeaMonkeyThrottledRestClient/TeaMonkeyThrottledRestClient.csproj": {
+            "projectPath": "/Users/carsons/Repositories/ThrottledRestClient/TeaMonkeyThrottledRestClient/TeaMonkeyThrottledRestClient/TeaMonkeyThrottledRestClient.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "FluentAssertions": {
+          "target": "Package",
+          "version": "[5.6.0, )"
+        },
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.9.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

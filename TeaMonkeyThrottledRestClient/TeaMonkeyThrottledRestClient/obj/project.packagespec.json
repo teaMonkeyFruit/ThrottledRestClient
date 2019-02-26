@@ -1,0 +1,47 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/carsons/Repositories/ThrottledRestClient/TeaMonkeyThrottledRestClient/TeaMonkeyThrottledRestClient/TeaMonkeyThrottledRestClient.csproj",
+    "projectName": "TeaMonkeyThrottledRestClient",
+    "projectPath": "/Users/carsons/Repositories/ThrottledRestClient/TeaMonkeyThrottledRestClient/TeaMonkeyThrottledRestClient/TeaMonkeyThrottledRestClient.csproj",
+    "outputPath": "/Users/carsons/Repositories/ThrottledRestClient/TeaMonkeyThrottledRestClient/TeaMonkeyThrottledRestClient/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        },
+        "RestSharp": {
+          "target": "Package",
+          "version": "[106.6.8, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
